@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Group Project Form</title>
+</head>
+
+<body>
+    <h1>Group Project Form</h1>
+
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Group Number</legend>
+            <label for="groupNumber">Group Number:</label>
+            <input type="text" id="groupNumber" name="groupNumber" required>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Student 1</legend>
+            <label for="student1RollNo">Student 1 Roll No:</label>
+            <input type="text" id="student1RollNo" name="student1RollNo" required>
+            <br>
+            <label for="student1Name">Student 1 Name:</label>
+            <input type="text" id="student1Name" name="student1Name" required>
+        </fieldset>
+
+          <fieldset>
+            <legend>Student 2</legend>
+            <label for="student2RollNo">Student 2 Roll No:</label>
+            <input type="text" id="student2RollNo" name="student2RollNo" required>
+            <br>
+            <label for="student2Name">Student 2 Name:</label>
+            <input type="text" id="student2Name" name="student2Name" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Student 3</legend>
+            <label for="student3RollNo">Student 3 Roll No:</label>
+            <input type="text" id="student3RollNo" name="student3RollNo" required>
+            <br>
+            <label for="student3Name">Student 3 Name:</label>
+            <input type="text" id="student3Name" name="student3Name" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Student 4</legend>
+            <label for="student4RollNo">Student 4 Roll No:</label>
+            <input type="text" id="student4RollNo" name="student4RollNo" required>
+            <br>
+            <label for="student4Name">Student 4 Name:</label>
+            <input type="text" id="student4Name" name="student4Name" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Group Project</legend>
+            <label for="projectTitle">Project Title:</label>
+            <input type="text" id="projectTitle" name="projectTitle" required>
+            <br>
+            <label for="projectDescription">Project Description:</label>
+            <textarea id="projectDescription" name="projectDescription" rows="4" cols="50" required></textarea>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
